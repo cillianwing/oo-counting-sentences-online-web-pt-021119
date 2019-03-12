@@ -19,7 +19,7 @@ class String
   end
 
   def count_sentences
-    a = self.split(". " || "! " || "? ")
+    a = string.split(/[.!?]\s/)
     
   end
 end
