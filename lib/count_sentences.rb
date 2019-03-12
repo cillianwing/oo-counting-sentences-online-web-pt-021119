@@ -20,7 +20,7 @@ class String
 
   def count_sentences
     # split using regex after ".", "?", or "!" followed by space
-    a = string.split(/[.!?]\s/)
+    a = self.split(/[.!?]\s/)
     a.count
   end
 end
